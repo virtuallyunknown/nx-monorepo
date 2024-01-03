@@ -1,0 +1,25 @@
+{
+    "name": "@virtuallyunknown/nx-monorepo",
+    "author": "virtuallyunknown",
+    "private": true,
+    "type": "module",
+    "license": "MIT",
+    "scripts": {
+        "update": "pnpm up --latest --interactive --recursive",
+        "release": "tsx --trace-uncaught --trace-warnings --env-file=.env util/release/src/release.ts"
+    },
+    "devDependencies": {
+        "@nx/js": "17.3.0-beta.6",
+        "axios": "^1.6.5",
+        "eslint": "^8.56.0",
+        "gitlog": "^4.0.8",
+        "nx": "17.3.0-beta.6",
+        "prettier": "^3.2.4",
+        "typescript": "^5.3.3"
+    },
+    "dependencies": {
+        "@types/node": "^20.11.5",
+        "@types/semver": "^7.5.6",
+        "semver": "^7.5.4"
+    }
+}

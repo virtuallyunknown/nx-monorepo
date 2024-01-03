@@ -1,0 +1,28 @@
+{
+    "$schema": "./node_modules/nx/schemas/nx-schema.json",
+    "targetDefaults": {
+        "build": {
+            "dependsOn": ["^build"],
+            "cache": true
+        }
+    },
+    "affected": {
+        "defaultBase": "master"
+    },
+    "release": {
+        "releaseTagPattern": "{version}",
+        "projectsRelationship": "fixed",
+        "projects": ["packages/*"],
+        "version": {
+            "generatorOptions": {
+                "currentVersionResolver": "git-tag"
+            }
+        },
+        "changelog": {
+            "workspaceChangelog": {
+                "createRelease": "github",
+                "file": false
+            }
+        }
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "name": "@virtuallyunknown/release",
+    "private": true,
+    "type": "module",
+    "devDependencies": {
+        "@types/node": "^20.11.5",
+        "@types/semver": "^7.5.6",
+        "axios": "^1.6.5",
+        "enquirer": "^2.4.1",
+        "execa": "^8.0.1",
+        "gitlog": "^4.0.8",
+        "semver": "^7.5.4",
+        "tsx": "^4.7.0"
+    }
+}

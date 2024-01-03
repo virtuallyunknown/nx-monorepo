@@ -1,0 +1,9 @@
+{
+    "name": "@virtuallyunknown/tsconfig",
+    "version": "0.0.2",
+    "type": "module",
+    "private": true,
+    "exports": {
+        "./*.json": "./src/*.json"
+    }
+}
