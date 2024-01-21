@@ -1,17 +1,17 @@
 {
     "name": "@virtuallyunknown/c",
-    "version": "0.0.0",
+    "version": "0.0.1",
     "type": "module",
     "private": true,
     "scripts": {
         "build": "rm -rf ./out && tsc"
     },
     "dependencies": {
-        "@virtuallyunknown/a": "0.0.0",
-        "@virtuallyunknown/b": "0.0.0"
+        "@virtuallyunknown/a": "0.0.1",
+        "@virtuallyunknown/b": "0.0.1"
     },
     "devDependencies": {
         "@types/node": "^20.11.5",
-        "@virtuallyunknown/tsconfig": "0.0.0"
+        "@virtuallyunknown/tsconfig": "0.0.1"
     }
 }
