@@ -1,6 +1,6 @@
 {
     "name": "@virtuallyunknown/a",
-    "version": "0.0.2",
+    "version": "0.0.0",
     "type": "module",
     "main": "./index.js",
     "publishConfig": {
@@ -16,6 +16,6 @@
         "build": "rm -rf ./out && tsc"
     },
     "devDependencies": {
-        "@virtuallyunknown/tsconfig": "0.0.2"
+        "@virtuallyunknown/tsconfig": "0.0.0"
     }
 }

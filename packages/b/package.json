@@ -1,6 +1,6 @@
 {
     "name": "@virtuallyunknown/b",
-    "version": "0.0.2",
+    "version": "0.0.0",
     "type": "module",
     "main": "./index.js",
     "private": true,
@@ -14,10 +14,10 @@
         "build": "rm -rf ./out && tsc"
     },
     "dependencies": {
-        "@virtuallyunknown/a": "0.0.2"
+        "@virtuallyunknown/a": "0.0.0"
     },
     "devDependencies": {
         "@types/node": "^20.11.5",
-        "@virtuallyunknown/tsconfig": "0.0.2"
+        "@virtuallyunknown/tsconfig": "0.0.0"
     }
 }
