@@ -7,3 +7,7 @@ NOT match it will try to install it from the npm registry and throw a very confu
 error.
 
 nx beta 2 > 6
+
+# Verdaccio user data
+
+/home/user/.config/verdaccio
